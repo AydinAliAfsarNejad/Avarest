@@ -113,7 +113,10 @@
     object-fit: cover;
     display: block;
   }
-
+  
+  .swiper-slide2 {
+    @apply inline-block w-[380px] h-52 rounded-4xl shadow-xl bg-Primary gap-4
+  } 
   /* Responsive swiper height: smaller on mobile/tablet */
   @media (max-width: 640px) {
     .swiper {
